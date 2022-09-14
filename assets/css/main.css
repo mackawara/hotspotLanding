@@ -1874,6 +1874,7 @@ header {
 
 header > p {
   display: block;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5em;
   margin: 1em 0 2em 0;
   line-height: 1.5em;
@@ -2166,8 +2167,8 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  background: #df7366;
-  color: #fff;
+  background-color: #023e8a;
+  color: #caf0f8;
   text-align: center;
   border-radius: 0.5em;
   text-decoration: none;
@@ -2191,8 +2192,9 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  color: #fff;
-  background: #ef8376;
+  color: #caf0f8;
+  background-color: #0077b6;
+  border: 1px solid #90e0ef;
 }
 
 input[type="button"].alt,
@@ -2323,12 +2325,14 @@ header .icon.circled {
 #header header > p {
   font-size: 1.25em;
   margin: 0;
+  color: #03045e;
 }
 
 #header h1 {
-  color: #fff;
+  color: #03045e;
   font-size: 3em;
   line-height: 1em;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header h1 a {
@@ -2349,13 +2353,13 @@ header .icon.circled {
 #header hr {
   top: 1.5em;
   margin-bottom: 3em;
-  border-bottom-color: rgba(192, 192, 192, 0.35);
+  border-bottom-color: #03045e;
   box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
 }
 
 #header hr:before,
 #header hr:after {
-  background: rgba(192, 192, 192, 0.35);
+  background: #03045e;
 }
 
 #header footer {
